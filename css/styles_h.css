@@ -1,0 +1,39 @@
+body {
+    background-size: cover;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.contenedor{
+    float: right;
+    height: 120px;
+    width: 500px;
+    
+}
+
+
+.container h2, p{
+    color: aliceblue;
+}
+
+.contenedor h2, p{
+    color: aliceblue;
+}
+
+
+.card{
+    background: transparent;
+    width: 100%;
+    margin: 30px;
+    border-radius: 6px;
+    overflow: hidden; 
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    
+}
+.card:hover{
+    
+    transform: translateY(-3%);
+}
